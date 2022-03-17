@@ -5,9 +5,7 @@ HBPGEO(https://github.com/lzj2051303710/HBPGEO) is a web-based tool that allows 
 It can conduct differential gene expression analysis, and it can also realize screen key gene modules and hub genes based on WGCNA. Meanwhile, it can also conduct gene enrichment and pathway analysis. 
 
 To run this app locally on your machine,download R or Rstudio and run the following command once to set up the environment:
-BiocManager.packages(c("shiny","shinyTree","shinythemes","grid","lattice","latticeExtra","tidyr","dplyr","dendextend","reshape2",
-"ggplot2","gplots","limma","RColorBrewer","DT","pheatmap","ggrepel","ggfortify","ggstatsplot","cluster","shinyvalidate","GO.db",
-"org.Hs.eg.db","topGO","GSEABase","clusterProfiler","Rgraphviz","pathview","igraph","ggnewscale","WGCNA"),ask = F,update = F)
+BiocManager.packages(c("shiny","shinyTree","shinythemes","grid","lattice","latticeExtra","tidyr","dplyr","dendextend","reshape2","ggplot2","gplots","limma","RColorBrewer","DT","pheatmap","ggrepel","ggfortify","ggstatsplot","cluster","shinyvalidate","GO.db","org.Hs.eg.db","topGO","GSEABase","clusterProfiler","Rgraphviz","pathview","igraph","ggnewscale","WGCNA"),ask = F,update = F)
 
 If you were ready for this package, You could now run the shiny app with just one command in R:
  (1) Download the source code(https://github.com/lzj2051303710/HBPGEO);
