@@ -1,6 +1,5 @@
-# HBPGEO_ALL
 #HBPGEO: An Application System for Analysis and Visualization of gene expression data of hypertension.
-HBPGEO is a web application for analyzing and visualizing gene expression data by R Shiny
+HBPGEO is a web application for analyzing and visualizing gene expression data by R Shiny.
 
 HBPGEO(https://github.com/lzj2051303710/HBPGEO) is a web-based tool that allows the users to select data in the database of HBPGEO and also allows users to upload analysis of gene expression data for other diseases. 
 It can conduct differential gene expression analysis, and it can also realize screen key gene modules and hub genes based on WGCNA. Meanwhile, it can also conduct gene enrichment and pathway analysis. 
