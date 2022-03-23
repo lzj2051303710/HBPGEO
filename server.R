@@ -869,7 +869,7 @@ output$Module_trait <- renderPlot({
                  colors = greenWhiteRed(50),
                  textMatrix = textMatrix,
                  setStdMargins = FALSE,
-                 cex.text = 0.65,
+                 cex.text = 0.4,
                  zlim = c(-1,1),
                  main = paste("Module-trait relationships"))
 
@@ -913,7 +913,7 @@ output$DownloadModule_trait <- downloadHandler(
                    colors = greenWhiteRed(50),
                    textMatrix = textMatrix,
                    setStdMargins = FALSE,
-                   cex.text = 0.65,
+                   cex.text = 0.4,
                    zlim = c(-1,1),
                    main = paste("Module-trait relationships"))
    

@@ -314,7 +314,7 @@ tabPanel("Gene Module Analysis",
            column(width = 7,
                   wellPanel(
                     tabsetPanel(
-                      tabPanel("Clustering tree of samples", 
+                      tabPanel("Sample dendrogram and trait heatmap", 
                                
                                uiOutput("sampleclust.ui"),
                                downloadButton("Downloadsampleclust", "Download Plot"),
@@ -454,7 +454,7 @@ tabPanel("Hub Gene Analysis",
                                downloadButton("UserDownloadhubGenes", "Download Table")
                                
                       ),
-                      tabPanel("Box pot", 
+                      tabPanel("Box plot", 
                                br(),
                                h5('Please enter a gene name, click the "Submit" button,and
                                   to see the expression of genes in different groups.'),
